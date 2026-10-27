@@ -2,6 +2,7 @@ apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
   name: win11-vm
+  namespace: vms
 spec:
   dataVolumeTemplates:
     - metadata:
