@@ -53,7 +53,7 @@ spec:
         machine:
           type: pc-q35-rhel9.4.0
         memory:
-          guest: 4Gi
+          guest: 2Gi
       volumes:
         - dataVolume:
             name: fedora 
