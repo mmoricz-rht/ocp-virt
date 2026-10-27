@@ -2,6 +2,7 @@ apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
   name: fedora 
+  namespace: vms
   labels:
     app: fedora 
     kubevirt.io/dynamic-credentials-support: 'true'
